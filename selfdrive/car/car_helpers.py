@@ -177,7 +177,7 @@ def get_car(logcan, sendcan, has_relay=False):
 
   if candidate is None:
     cloudlog.warning("car doesn't match any fingerprints: %r", fingerprints)
-    candidate = "CAR.LEXUS_RXH_TSS2"
+    candidate = "LEXUS RX HYBRID 2020"
 
   if CAR_FORCE_RECOGNITION is not None:
     candidate = CAR_FORCE_RECOGNITION
